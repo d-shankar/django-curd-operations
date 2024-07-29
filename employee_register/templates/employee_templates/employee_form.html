@@ -1,0 +1,9 @@
+{% extends "employee_templates/base.html"%}
+
+{% block content %}
+<form method="post" action = ''>
+    {% csrf_token %}
+    {{form}}
+    <button type="submit" class="btn btn-submit">Submit</button>
+</form>
+{% endblock content%}
