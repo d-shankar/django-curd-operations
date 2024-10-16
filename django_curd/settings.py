@@ -54,6 +54,8 @@ REST_FRAMEWORK = {
     ],
 }
 
+
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -91,9 +93,9 @@ WSGI_APPLICATION = 'django_curd.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'employee',
-        'USER': 'postgres',
-        'PASSWORD': 'root',
+        'NAME': 'social',
+        'USER': 'social',
+        'PASSWORD': 'social',
         'HOST': '',  # Set to empty string for localhost.
         'PORT': '5432',  # Set to empty string for default.
     }

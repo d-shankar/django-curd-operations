@@ -4,6 +4,7 @@ from employee_register.model import Employee, Position, Product, NewUser
 admin.site.register(Employee)
 admin.site.register(Position)
 admin.site.register(NewUser)
+admin.site.register()
 
 class ProductMixIn:
     def has_add_permission(self, request):
